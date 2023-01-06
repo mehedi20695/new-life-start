@@ -10,7 +10,7 @@
     background-image: url(images/banner/banner3.png);
     background-repeat: no-repeat;
     width: 1500px;
-    height: 700px;  
+    height: 700px;
 }
 
 .header-title {
@@ -18,7 +18,7 @@
     font-size: 65px;
     padding-top: 200px;
     padding-left: 750px;
-    padding-right: 150px; 
+    padding-right: 150px;
     margin-bottom: 20px;
 }
 
@@ -27,16 +27,115 @@
     font-size: 16px;
     padding-left: 860px;
     padding-right: 150px;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
-.header-btn {
+.header-button {
     width: 150px;
     height: 55px;
     border-radius: 5px;
     border-color: white;
     color: #005FAC;
     font-weight: 600;
-    font-size: 20px; 
-    margin-right: 150px; 
+    font-size: 20px;
+    margin-right: 150px;
+}
+
+/* first section styles */
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-left: 200px;
+    margin-right: 310px;
+    text-align: left;
+    gap: 90px;
+}
+
+.first-section-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 300px;
+}
+
+.first-section-title-description {
+    color: #444343;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    color: #444343;
+}
+
+ul li::before {
+    color: chartreuse;
+    content: '✓';
+}
+
+/* second section styles */
+
+.plan {
+    margin-top: 125px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.plan-title {
+    display: flex;
+    text-align: center;
+    gap: 110px;
+    margin-left: 230px;
+    margin-right: 220px;
+}
+
+.plan-name {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.plan-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 140px;
+}
+
+/* third section styles */
+
+.gradient-image {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    background-image: url(images/gradient1.png), url(images/watch.png); 
+    /* after trying 45 min it happen */
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 0 200px 0 200px;
+}
+.third-section-title {
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.call-button{
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    border-color: white;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 60px;
+
 }
