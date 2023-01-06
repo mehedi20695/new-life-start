@@ -9,12 +9,12 @@
     text-align: right;
     background-image: url(images/banner/banner3.png);
     background-repeat: no-repeat;
-    width: 1500px;
-    height: 700px;
+    width: 1450px;
+    height: 650px;
 }
 
 .header-title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 65px;
     padding-top: 200px;
     padding-left: 750px;
@@ -45,9 +45,9 @@
 .first-section {
     display: flex;
     justify-content: space-between;
-    margin-top: 130px;
-    margin-left: 200px;
-    margin-right: 310px;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-right: 140px;
     text-align: left;
     gap: 90px;
 }
@@ -80,16 +80,16 @@ ul li::before {
     margin-top: 125px;
     text-align: center;
     font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 60px;
+    font-size: 55px;
+    margin-bottom: 50px;
 }
 
 .plan-title {
     display: flex;
     text-align: center;
-    gap: 110px;
-    margin-left: 230px;
-    margin-right: 220px;
+    gap: 100px;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 
 .plan-name {
@@ -103,31 +103,30 @@ ul li::before {
     color: #737272;
     font-weight: 500;
     font-size: 25px;
-    margin-bottom: 140px;
+    margin-bottom: 120px;
 }
 
 /* third section styles */
 
 .gradient-image {
-    position: absolute;
-    width: 1140px;
-    height: 300px;
-    background-image: url(images/gradient1.png), url(images/watch.png); 
-    /* after trying 45 min it happen */
+    width: 1000px;
+    height: 250px;
+    background-image: url(images/gradient1.png), url(images/watch.png);
     background-repeat: no-repeat;
     border-radius: 8px;
-    margin: 0 200px 0 200px;
+    margin: 0 200px 200px 200px;
 }
+
 .third-section-title {
     text-align: left;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 40px;
-    padding-left: 60px;
-    padding-top: 60px;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
-.call-button{
+.call-button {
     width: 150px;
     height: 55px;
     border-radius: 5px;
@@ -135,7 +134,87 @@ ul li::before {
     color: #005FAC;
     font-weight: 600;
     font-size: 20px;
-    margin-top: 60px;
-    margin-left: 60px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+/* my section styles */
+.my-quotation{
+    color: beige;
+    text-align: center;
+    border-radius: 20px;
+    width: 1000px;
+    height: 200px;
+    font-weight: 800;
+    font-size: 25px;
+    margin: 0 100px 100px 200px;
+    background-image: url(images/gradient3.png), url(images/leland\ dieno.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
+/* fotter */
+.footer {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    text-align: left;
+    background-color: black;
+    padding: 135px 235px;
+    width: 980px;
+    height: 250px;
+
+}
+
+.footer-future {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.footer-future-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-future-email {
+    margin-bottom: 10px;
+}
+
+.footer-future-mobile-no {
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-subscribe {
+    width: 123px;
+    height: 29px;
+    margin-bottom: 25px;
+}
+
+.footer-email {
+    width: 337px;
+    height: 64px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-width: 100%;
+    border-color: #FFFFFF;
+    background-color: black;
+}
+
+.subscribe-btn {
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #005FAC;
+    color: #FFFFFF;
+    background-color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
 }
